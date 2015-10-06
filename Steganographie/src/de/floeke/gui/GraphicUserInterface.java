@@ -1,4 +1,4 @@
-package com.gui;
+package de.floeke.gui;
 
 import java.awt.Dimension;
 import java.awt.FileDialog;
@@ -20,7 +20,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import com.operations.FileWorker;
+import de.floeke.operations.FileWorker;
 
 /**
  * Graphic User Interface
@@ -200,7 +200,5 @@ public class GraphicUserInterface extends JFrame
 				dispose();
 			}
 		});
-
-		setVisible(true);
 	}
 }
